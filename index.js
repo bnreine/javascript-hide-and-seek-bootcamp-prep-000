@@ -13,7 +13,9 @@ function increaseRankBy(n) {
   }
 }
 
-
+function deepestChild() {
+  return document.querySelector
+}
 
 /*
   describe('deepestChild()', () => {
