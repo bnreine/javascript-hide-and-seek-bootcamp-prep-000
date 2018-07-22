@@ -14,8 +14,14 @@ function increaseRankBy(n) {
 }
 
 
-/*
 
+/*
+  describe('deepestChild()', () => {
+    it('returns the most deeply nested child in #grand-node', () => {
+      console.log(deepestChild().innerHTML)
+      expect(deepestChild()).to.equal(document.querySelector('#grand-node div div div div'))
+    })
+  })
 
 
 - Define a function `deepestChild()` that pulls out the most deeply nested child
